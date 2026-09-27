@@ -2,18 +2,18 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: CoralCreek.SQLiteExpert.Professional
-PackageVersion: 6.2.2.736
+PackageVersion: 6.2.3.737
 InstallerType: inno
 Scope: machine
 ReleaseDate: 2026-09-26
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.sqliteexpert.com/v6/SQLiteExpertProSetup32.exe
-  InstallerSha256: 5A6F251D0224A430DE273F1F868EDEC3000307D29BF460C51DC61E3F983A486E
+  InstallerSha256: B1BCA469A4029944B38352A0EEF0B75BF88814CE32E794923E25CB75D37E30E2
   ProductCode: SQLite Expert Professional 6 - 32bit_is1
 - Architecture: x64
   InstallerUrl: https://www.sqliteexpert.com/v6/SQLiteExpertProSetup64.exe
-  InstallerSha256: 389B35372E2136E64C50E3330F6329141406F963A1CAA98110EB48625C83DC7E
+  InstallerSha256: E47BCE97EF6F369BB6483C9A4F2D5754FC6264A934C90EE02F1D3EB6F8762EF6
   ProductCode: SQLite Expert Professional 6 - 64bit_is1
 ManifestType: installer
 ManifestVersion: 1.12.0
