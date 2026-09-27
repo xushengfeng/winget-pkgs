@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: LasseMarkusRautiainen.TextEditorPro
-PackageVersion: 37.2.1
+PackageVersion: 37.2.2
 PackageLocale: en-US
 Publisher: Lasse Markus Rautiainen
 PublisherUrl: https://texteditor.pro/
@@ -24,9 +24,9 @@ Tags:
 - editor
 - programming
 ReleaseNotes: |-
-  - Fixed options
-  - Fixed startup
-  - Updated language files
+  - Fixed editor popup menu
+  - Fixed generate tree
+  - Fixed title bar
 
   Note! This product is always completely FREE for you. See the license.
 ReleaseNotesUrl: https://texteditor.pro/index.php?page=history
