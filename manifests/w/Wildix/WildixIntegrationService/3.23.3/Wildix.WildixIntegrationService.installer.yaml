@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Wildix.WildixIntegrationService
-PackageVersion: 3.23.2
+PackageVersion: 3.23.3
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
@@ -14,13 +14,13 @@ Protocols:
 - wildix
 - x-bees
 - xbees
-ProductCode: '{635A1A83-F431-4229-951F-62153CDBA0C8}'
-ReleaseDate: 2026-09-09
+ProductCode: '{12457C40-6EE8-42DE-80F4-76295775AAB4}'
+ReleaseDate: 2026-09-28
 AppsAndFeaturesEntries:
 - UpgradeCode: '{FF93125A-606D-4E49-B9B7-8EDA0C662EAB}'
 Installers:
 - Architecture: x64
   InstallerUrl: https://files.wildix.com/integrations/win/wiservice/WIService.msi
-  InstallerSha256: AB3534FC959BCB38B1E94A866245119A6F009CDF3FFD099B76573005C13F9FF2
+  InstallerSha256: E7121ADE62922D1399872AA96B7AA22E4CFF222F2E99F3967B25DC1AC776C4AF
 ManifestType: installer
 ManifestVersion: 1.12.0
