@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: Clockify.Clockify
-PackageVersion: 2.3.1
+PackageVersion: 2.3.2
 PackageLocale: en-US
 Publisher: COING Inc.
 PublisherUrl: https://clockify.me/
@@ -23,13 +23,8 @@ Tags:
 - tracker
 - work
 ReleaseNotes: |-
-  What's new
-  - Added a default task option alongside the default project, allowing users to select a default task as well.
-  What's fixed
-  - Fixed an issue where keyboard shortcuts stopped working after the app was restarted.
-  - Fixed an issue where the auto-tracker would crash on specific dates and in specific time zones.
-  - Resolved a bug where the 'Update now' banner was not working when updating to newer versions.
-  - Fixed an issue where the timer would not stop when the PC shuts down.
+  Internal updates:
+  - Replace property weekStatusMap with periodStatusMap for grouping time entries.
 ReleaseNotesUrl: https://clockify.me/help/whats-new
 Documentations:
 - DocumentLabel: Tutorials
