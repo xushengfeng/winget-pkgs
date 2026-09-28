@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Google.Chrome.Canary
-PackageVersion: 156.0.8075.0
+PackageVersion: 156.0.8076.0
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -35,16 +35,16 @@ FileExtensions:
 - xht
 - xhtml
 ProductCode: Google Chrome
-ReleaseDate: 2026-09-26
+ReleaseDate: 2026-09-28
 Installers:
 - Architecture: x86
-  InstallerUrl: https://dl.google.com/release2/chrome/ady3liiyaj34kt4fmuqibmqsb3fa_156.0.8075.0/156.0.8075.0_chrome_installer_uncompressed.exe
-  InstallerSha256: 3131CB71C6991031A868E75D522B517D539AA8F2FB576FE7C957259EEA6204C5
+  InstallerUrl: https://dl.google.com/release2/chrome/c63gpoaepgt45jsqlkurjcnrqa_156.0.8076.0/156.0.8076.0_chrome_installer_uncompressed.exe
+  InstallerSha256: D4304834F528DB5D7621CBB07C22B9ED6FF0CDB522C41673FCF7D0B52437C11C
 - Architecture: x64
-  InstallerUrl: https://dl.google.com/release2/chrome/ad3y3tele4ry6dybg4vzksequbpa_156.0.8075.0/156.0.8075.0_chrome_installer_uncompressed.exe
-  InstallerSha256: F781317E066322927C2C1E8C08C2C996D6FE9D7A56991FA90EE63D26DFA9B2E8
+  InstallerUrl: https://dl.google.com/release2/chrome/acd7b5oz5pe332vvqa3mskbviaua_156.0.8076.0/156.0.8076.0_chrome_installer_uncompressed.exe
+  InstallerSha256: F80E8D51BEF3FCF89140E10BBC54E500B3EDBF2EAC2A445E51C80982F0F64332
 - Architecture: arm64
-  InstallerUrl: https://dl.google.com/release2/chrome/ac4kygnwl5u3hmnn5zqrqoda6n3q_156.0.8075.0/156.0.8075.0_chrome_installer_uncompressed.exe
-  InstallerSha256: 5A440AB818F377958AFEA9D00D158C30EE6460002C847A53FE3F2F5C0419BED7
+  InstallerUrl: https://dl.google.com/release2/chrome/adf3dcohjrg4qu433tsfbelbtg6a_156.0.8076.0/156.0.8076.0_chrome_installer_uncompressed.exe
+  InstallerSha256: D072877D791BB894B27C4B139A4BDF0381086348884CA5B57A966C4D7C7324B8
 ManifestType: installer
 ManifestVersion: 1.12.0
