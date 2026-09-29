@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: HHDSoftware.HexEditorNeo
-PackageVersion: 8.25.00.9580
+PackageVersion: 8.25.01.9585
 PackageLocale: en-US
 Publisher: HHD Software, Ltd.
 PublisherUrl: https://hhdsoftware.com/
@@ -32,19 +32,9 @@ Tags:
 - hex-editor
 - hex-editor-neo
 ReleaseNotes: |-
-  New Features
-  New Checksum algorithms: XOR
-  Hex Editor Neo may now calculate XOR checksums (for data groupped as 8-bit, 16-bit, 32-bit and 64-bit integers).
-  Note: existing users may need to use Tools » Checksum » Reset Algorithm List command to see new algorithms.Macro support for Structure Viewer
-  Structure binding and viewing may now be controlled using internal scripting (AKA macros).
-  Updated Features
-  Updated Structure Viewer
-  This release updates the Structure Viewer component, making it more performant, clean and easy to use.
   Bug Fixes
-  Copying to Clipboard may hang
-  Hex Editor Neo could hang when selected data or text was copied to the Clipboard. It was also possible for a third-party application in which data was eventually pasted to hang until Hex Editor Neo was closed.
-  This release finally fixes this regression.Copying or exporting Structure Viewer data may take too long
-  It could take very long time to copy large amounts of data from the Structure Viewer. This release changes a memory allocation strategy and dramatically increases copying/exporting performance.
+  Several bug fixes
+  This release fixes a number of reported and internally discovered bugs.
 ReleaseNotesUrl: https://hhdsoftware.com/hex-editor/history
 PurchaseUrl: https://hhdsoftware.com/hex-editor#pr-prices
 Documentations:

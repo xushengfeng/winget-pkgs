@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: HHDSoftware.HexEditorNeo
-PackageVersion: 8.25.00.9580
+PackageVersion: 8.25.01.9585
 InstallerType: exe
 InstallModes:
 - interactive
@@ -24,31 +24,31 @@ FileExtensions:
 - s19
 - s28
 - s37
-ReleaseDate: 2026-09-22
+ReleaseDate: 2026-09-29
 Installers:
 - Architecture: x64
   Scope: user
   InstallerUrl: https://hhdsoftware.com/download/hex-editor-neo.exe
-  InstallerSha256: FDAC800550648D549A8D9E193690891B938F89AACC16DBFF88C03810418CC46D
+  InstallerSha256: 25F551B28BB98452F9C69602C8170ECD7FF3F5698586CA190B926B0F564C1551
   InstallerSwitches:
     Custom: -user
 - Architecture: x64
   Scope: machine
   InstallerUrl: https://hhdsoftware.com/download/hex-editor-neo.exe
-  InstallerSha256: FDAC800550648D549A8D9E193690891B938F89AACC16DBFF88C03810418CC46D
+  InstallerSha256: 25F551B28BB98452F9C69602C8170ECD7FF3F5698586CA190B926B0F564C1551
   InstallerSwitches:
     Custom: -machine
   ElevationRequirement: elevationRequired
 - Architecture: arm64
   Scope: user
   InstallerUrl: https://hhdsoftware.com/download/hex-editor-neo-arm64.exe
-  InstallerSha256: 120D1E6D2E9B47FBDC77D18023D2B49D1612E13CDF8FF12613B0DC5CDC13D544
+  InstallerSha256: FC38445253E63CF1BC6C893EACE3C9FA00ED9D6776CD24E649F12DD61A4B0C0D
   InstallerSwitches:
     Custom: -user
 - Architecture: arm64
   Scope: machine
   InstallerUrl: https://hhdsoftware.com/download/hex-editor-neo-arm64.exe
-  InstallerSha256: 120D1E6D2E9B47FBDC77D18023D2B49D1612E13CDF8FF12613B0DC5CDC13D544
+  InstallerSha256: FC38445253E63CF1BC6C893EACE3C9FA00ED9D6776CD24E649F12DD61A4B0C0D
   InstallerSwitches:
     Custom: -machine
   ElevationRequirement: elevationRequired
