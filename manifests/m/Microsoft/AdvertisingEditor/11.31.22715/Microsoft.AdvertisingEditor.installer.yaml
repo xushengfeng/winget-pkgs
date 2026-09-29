@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Microsoft.AdvertisingEditor
-PackageVersion: 11.31.22710
+PackageVersion: 11.31.22715
 InstallerType: exe
 Scope: user
 InstallModes:
@@ -15,12 +15,12 @@ InstallerSwitches:
   Log: --log "<LOGPATH>"
 UpgradeBehavior: install
 ProductCode: MicrosoftAdvertisingEditor
-ReleaseDate: 2026-09-28
+ReleaseDate: 2026-09-29
 InstallationMetadata:
   DefaultInstallLocation: '%LocalAppData%\MicrosoftAdvertisingEditor'
 Installers:
 - Architecture: x64
   InstallerUrl: https://prod.editor.ads.microsoft.com/download/production-pc/c/MicrosoftAdvertisingEditor.exe
-  InstallerSha256: 3AC9BE18DB6BFD2AD9A481177A43ABB40E7D436CC88DE6BFBAAE7C37F3D97681
+  InstallerSha256: 0209CE25A13A4C768288C3CF70098DFF57B46C99F2F9D84E75D1FA321E3B12FC
 ManifestType: installer
 ManifestVersion: 1.12.0
