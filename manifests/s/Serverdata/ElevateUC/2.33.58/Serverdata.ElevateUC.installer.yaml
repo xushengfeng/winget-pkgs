@@ -2,17 +2,17 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Serverdata.ElevateUC
-PackageVersion: 2.32.143
+PackageVersion: 2.33.58
 UpgradeBehavior: install
 Protocols:
 - gomeet
-ReleaseDate: 2026-08-20
+ReleaseDate: 2026-09-18
 Installers:
 - Architecture: x86
   InstallerType: nullsoft
   Scope: user
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc.exe
-  InstallerSha256: 345307FBE6747A45DEC0372AF8751E08128F266DF5122DA10F2C4A8BD088E23E
+  InstallerSha256: 7D326ABE015B0D6AFB3A9DD9CBAAA3D4B688D801471C098FFBD40A2DE21200E0
   InstallerSwitches:
     Upgrade: --updated
     Custom: /currentuser
@@ -21,7 +21,7 @@ Installers:
   InstallerType: nullsoft
   Scope: machine
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc.exe
-  InstallerSha256: 345307FBE6747A45DEC0372AF8751E08128F266DF5122DA10F2C4A8BD088E23E
+  InstallerSha256: 7D326ABE015B0D6AFB3A9DD9CBAAA3D4B688D801471C098FFBD40A2DE21200E0
   InstallerSwitches:
     Upgrade: --updated
     Custom: /allusers
@@ -30,7 +30,7 @@ Installers:
   InstallerType: nullsoft
   Scope: user
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc.exe
-  InstallerSha256: 345307FBE6747A45DEC0372AF8751E08128F266DF5122DA10F2C4A8BD088E23E
+  InstallerSha256: 7D326ABE015B0D6AFB3A9DD9CBAAA3D4B688D801471C098FFBD40A2DE21200E0
   InstallerSwitches:
     Upgrade: --updated
     Custom: /currentuser
@@ -39,7 +39,7 @@ Installers:
   InstallerType: nullsoft
   Scope: machine
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc.exe
-  InstallerSha256: 345307FBE6747A45DEC0372AF8751E08128F266DF5122DA10F2C4A8BD088E23E
+  InstallerSha256: 7D326ABE015B0D6AFB3A9DD9CBAAA3D4B688D801471C098FFBD40A2DE21200E0
   InstallerSwitches:
     Upgrade: --updated
     Custom: /allusers
@@ -48,20 +48,20 @@ Installers:
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc-ia32.msi
-  InstallerSha256: 8D0ED50EFA7D3ED072677165BECA8474EEE9E3793FC5C04566DBED4F4F995758
+  InstallerSha256: A56E6F6EB7E82ABAED8830B9EA2B40EE72CAB0AC49D54916426D618FE616E37C
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{D2532577-8C22-4A48-8CE2-CC8B299EF5C8}'
+  ProductCode: '{7F9B6223-189B-4F22-AE53-CE9497C21BC7}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{B7411227-AA11-4234-A03F-88494D4F714D}'
 - Architecture: x64
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://cp.serverdata.net/voice/pbx/softphonereleases/default/latest-win/elevate-uc-x64.msi
-  InstallerSha256: 214C2768533C0F662201E1AFC6CFEC7E914C7809E3B6D741E3DFF0B0D24B255E
+  InstallerSha256: F1C5250B5D105A62D43B45551BED38D334531583E418B4D0199E7A46861A7B68
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-  ProductCode: '{CDD39924-E1B4-415E-A231-421C82076EB9}'
+  ProductCode: '{E6CE00AF-5609-406F-9FB6-B335DF4E1653}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{B7411227-AA11-4234-A03F-88494D4F714D}'
 ManifestType: installer
