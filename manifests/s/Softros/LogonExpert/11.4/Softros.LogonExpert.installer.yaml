@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Softros.LogonExpert
-PackageVersion: 11.3.2
+PackageVersion: "11.4"
 InstallerLocale: en-US
 InstallerType: msi
 Scope: machine
@@ -14,25 +14,25 @@ UpgradeBehavior: install
 Installers:
 - Architecture: x86
   InstallerUrl: https://download.softros.com/LogonExpertSetup32.msi
-  InstallerSha256: B3927B3F8055BC742E0630D0A35D4FA3DC9A089F0A52D454AADE735CE544EC9A
-  ProductCode: '{8CA8888F-065C-4DFF-AC92-13DA231D8591}'
+  InstallerSha256: F632313B39DF20CE90DAA001B3D76D0AF4FC08BB30B397B36F3DABE8E2727F74
+  ProductCode: '{134EA677-032E-4CCD-9063-023AAE892E29}'
   AppsAndFeaturesEntries:
-  - ProductCode: '{8CA8888F-065C-4DFF-AC92-13DA231D8591}'
+  - ProductCode: '{134EA677-032E-4CCD-9063-023AAE892E29}'
     UpgradeCode: '{D25E1E10-6378-4CAC-B38C-5747CBF4BCB6}'
 - Architecture: x64
   InstallerUrl: https://download.softros.com/LogonExpertSetup64.msi
-  InstallerSha256: 69AFE275F92B873715D3826D6691075D6DF562AB42770625F1695CCCE6BFFB73
-  ProductCode: '{113FF0FD-9E58-4448-AC22-641A528E779E}'
+  InstallerSha256: 81DD63D42D176FC10CBC0BC3953EB4AA807143D00BA8CD269FFC82393EB76411
+  ProductCode: '{B3235720-6F77-4209-96F3-3C1A4FB46DCD}'
   AppsAndFeaturesEntries:
-  - ProductCode: '{113FF0FD-9E58-4448-AC22-641A528E779E}'
+  - ProductCode: '{B3235720-6F77-4209-96F3-3C1A4FB46DCD}'
     UpgradeCode: '{D25E1E10-6378-4CAC-B38C-5747CBF4BCB6}'
 - Architecture: arm64
   InstallerUrl: https://download.softros.com/LogonExpertSetupARM64.msi
-  InstallerSha256: E54DCC20AAAA1CE03CC56916828973B8FE629A76300313D062751EAD47E922D9
-  ProductCode: '{B329A77A-0C82-4123-AA0A-844085A1769C}'
+  InstallerSha256: 05F0CCD0C9491E263CBD38671B19883797EC87C0E3B909AA1B2FA75533C6F707
+  ProductCode: '{A5DC5300-047C-4C5A-AAFE-5268F1F4C7CD}'
   AppsAndFeaturesEntries:
-  - ProductCode: '{B329A77A-0C82-4123-AA0A-844085A1769C}'
+  - ProductCode: '{A5DC5300-047C-4C5A-AAFE-5268F1F4C7CD}'
     UpgradeCode: '{D25E1E10-6378-4CAC-B38C-5747CBF4BCB6}'
 ManifestType: installer
 ManifestVersion: 1.12.0
-ReleaseDate: 2026-09-16
+ReleaseDate: 2026-09-30
